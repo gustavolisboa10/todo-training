@@ -2,6 +2,18 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: Roboto;
+}
+
+body{
+background-color: #000;
+}
+
+#jsIcon{
+color:rgb(194, 194, 76);
+}
+h1{
+margin-bottom: .5rem;
 
 }
 
@@ -54,6 +66,20 @@ box-sizing: border-box;
     border-radius: 5px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+/*use it when task will done*/
+.done {
+    background-color: rgb(27, 143, 245);
+    text-decoration: line-through;
+}
+
+#trashIcon{
+color:red;
+
+}
+
+#checIcon{
+color:darkgreen;
 }
 
 
